@@ -34,3 +34,7 @@ Command blocks will connect in ascending order depending on a number postfixed o
 
 > [^][>]<br>
 > A comparator facing up and another one facing right.<br>
+
+## Naming Scheme
+***
+**ALL_CAPS_SNAKE_CASE** = User changeable variable names.<br>

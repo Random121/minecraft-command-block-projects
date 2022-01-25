@@ -1,8 +1,8 @@
 [R1]
-scoreboard players add @a scoreboardActualValues 0
+scoreboard players add @a SCOREBOARD_ACTUAL 0
 
 [C2]
-scoreboard players reset * scoreboardDisplayValues
+scoreboard players reset * SCOREBOARD_DISPLAY
 
 [C3]
-execute @a ~ ~ ~ scoreboard players operation @s scoreboardDisplayValues = @s scoreboardActualValues
+execute @a ~ ~ ~ scoreboard players operation @s SCOREBOARD_DISPLAY = @s SCOREBOARD_ACTUAL
